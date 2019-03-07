@@ -33,9 +33,6 @@ export default {
   },
   computed: {
     output: function() {
-      // eslint-disable-next-line
-      console.log('updated output');
-
       let results = {};
 
       Object.entries(this.targets).forEach(([key, value]) => {
